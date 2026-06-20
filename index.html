@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supriya Singh | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+        <a href="#top" class="nav-brand">&gt;_ supriya</a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <a href="resume.pdf" download class="nav-resume-btn">
+            <i class="fas fa-download"></i> <span>Resume</span>
+        </a>
+    </div>
+</nav>
+
+<header class="hero" id="top">
+    <div class="container hero-inner">
+
+        <div class="terminal">
+            <div class="terminal-bar">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="terminal-title">supriya@portfolio:~</span>
+            </div>
+            <div class="terminal-body">
+                <p class="line">
+                    <span class="prompt">$</span>
+                    <span class="typed" id="typed-1"></span>
+                </p>
+                <p class="line">
+                    <span class="output" id="output-1"></span>
+                </p>
+                <p class="line">
+                    <span class="prompt">$</span>
+                    <span class="typed" id="typed-2"></span>
+                </p>
+                <p class="line">
+                    <span class="output" id="output-2"></span><span class="cursor">▌</span>
+                </p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <a href="https://github.com/supriyasingh26323-coder" target="_blank" class="btn">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/supriya-singh-4bb157390" target="_blank" class="btn">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+
+            <a href="mailto:supriyasingh26323@gmail.com" class="btn">
+                <i class="fas fa-envelope"></i> Contact
+            </a>
+        </div>
+
+    </div>
+</header>
+
+<section class="about" id="about">
+    <div class="container">
+        <p class="eyebrow reveal">// about</p>
+        <h2 class="reveal">About Me</h2>
+
+        <div class="about-grid reveal">
+            <div class="about-avatar">
+                <div class="avatar-tag">
+                    <span class="tag-bracket">&lt;</span>SupriyaSingh<span class="tag-bracket">/&gt;</span>
+                </div>
+                <p class="status-text"><span class="status-dot"></span> Available for opportunities</p>
+            </div>
+
+            <div class="about-content">
+                <p>
+                   Passionate software developer with a strong interest in web development,
+Java programming, and building real-world applications. Skilled in Java,
+PHP, MySQL, HTML, CSS, and JavaScript, with hands-on experience developing
+projects such as CookPoint and ATM Management System.
+                </p>
+
+                <div class="stats-row">
+                    <div class="stat-card">
+                        <span class="stat-num">02</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">03</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">08+</span>
+                        <span class="stat-label">Tech Stack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <div class="container">
+        <p class="eyebrow reveal">// skills</p>
+        <h2 class="reveal">Skills</h2>
+
+        <div class="skill-box reveal">
+            <span><i class="fa-brands fa-java"></i> Java</span>
+            <span><i class="fa-brands fa-php"></i> PHP</span>
+            <span><i class="fa-solid fa-database"></i> MySQL</span>
+            <span><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span><i class="fa-brands fa-js"></i> JavaScript</span>
+            <span><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span><i class="fa-brands fa-github"></i> GitHub</span>
+        </div>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <div class="container">
+
+        <p class="eyebrow reveal">// projects</p>
+        <h2 class="reveal">Projects</h2>
+
+        <div class="grid">
+
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/cookpoint.svg" alt="CookPoint food ordering website preview"
+                         loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-placeholder">
+                        <i class="fas fa-image"></i>
+                        Add screenshot at images/cookpoint.svg
+                    </div>
+                </div>
+
+                <div class="project-head">
+                    <span class="lang-dot lang-php"></span>
+                    <h3>CookPoint <span class="path">— Food Ordering System</span></h3>
+                </div>
+
+                <p>
+                    A food ordering platform built using HTML, CSS,
+                    JavaScript, PHP and MySQL.
+                </p>
+
+                <a href="https://github.com/supriyasingh26323-coder/Cook-Point"
+                   target="_blank" class="project-btn">
+                   <i class="fab fa-github"></i> View Repository
+                </a>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <img src="images/atm.svg" alt="ATM Management System preview"
+                         loading="lazy"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="img-placeholder">
+                        <i class="fas fa-image"></i>
+                        Add screenshot at images/atm.svg
+                    </div>
+                </div>
+
+                <div class="project-head">
+                    <span class="lang-dot lang-java"></span>
+                    <h3>ATM Management System</h3>
+                </div>
+
+                <p>
+                    Java and MySQL based ATM simulation supporting
+                    deposit, withdrawal and balance inquiry.
+                </p>
+
+                <a href="https://github.com/supriyasingh26323-coder/ATM-Management-System"
+                   target="_blank" class="project-btn">
+                   <i class="fab fa-github"></i> View Repository
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="edu-cert" id="education">
+    <div class="container">
+        <p class="eyebrow reveal">// education</p>
+        <h2 class="reveal">Education &amp; Certifications</h2>
+
+        <div class="edu-grid">
+            <div class="reveal">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <p class="date">2023 — 2026</p>
+                        <h4>Bachelor of Computer Applications</h4>
+                        <p class="sub">Cimage Professional College (Aryabhatta Knowledge University)</p>
+                    </div>
+                    <div class="timeline-item">
+                        <p class="date">2023</p>
+                        <h4>Intermediate</h4>
+                        <p class="sub">Ganga Singh College (Bihar Board)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reveal">
+                <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <p class="date">2025</p>
+                        <h4>HTML &amp; CSS Certification</h4>
+                        <p class="sub">Spoken Tutorial, IIT Bombay</p>
+                    </div>
+                    <div class="timeline-item">
+                        <p class="date">Spoken Tutorial</p>
+                        <h4>C &amp; C++ Certification</h4>
+                        <p class="sub">IIT Bombay</p>
+                    </div>
+                    <div class="timeline-item">
+                        <p class="date">Spoken Tutorial</p>
+                        <h4>PHP &amp; MySQL Certification</h4>
+                        <p class="sub">IIT Bombay</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <p class="eyebrow reveal">// contact</p>
+        <h2 class="reveal">Get In Touch</h2>
+
+        <div class="config-block reveal">
+            <p>
+                <span class="key">EMAIL</span><span class="eq">=</span>
+                <a href="mailto:supriyasingh26323@gmail.com">supriyasingh26323@gmail.com</a>
+            </p>
+            <p>
+                <span class="key">LINKEDIN</span><span class="eq">=</span>
+                <a href="https://www.linkedin.com/in/supriya-singh-4bb157390" target="_blank">linkedin.com/in/supriya-singh-4bb157390</a>
+            </p>
+            <p>
+                <span class="key">GITHUB</span><span class="eq">=</span>
+                <a href="https://github.com/supriyasingh26323-coder" target="_blank">github.com/supriyasingh26323-coder</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Supriya Singh — built with curiosity, caffeine &amp; console.log()</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#161b22"/>
+  <rect x="0" y="0" width="640" height="36" fill="#11161d"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/>
+  <circle cx="38" cy="18" r="5" fill="#ffbd2e"/>
+  <circle cx="56" cy="18" r="5" fill="#27c93f"/>
+  <text x="320" y="22" font-family="monospace" font-size="12" fill="#8b949e" text-anchor="middle">cookpoint.app</text>
+
+  <rect x="24" y="56" width="592" height="80" rx="8" fill="#1f2630"/>
+  <text x="44" y="90" font-family="monospace" font-size="22" font-weight="700" fill="#ffa657">CookPoint</text>
+  <text x="44" y="112" font-family="monospace" font-size="13" fill="#8b949e">Order your favourite food online</text>
+  <rect x="500" y="80" width="92" height="32" rx="6" fill="#3fb950"/>
+  <text x="546" y="101" font-family="monospace" font-size="12" fill="#0d1117" text-anchor="middle">Order Now</text>
+
+  <g>
+    <rect x="24" y="156" width="180" height="150" rx="10" fill="#1f2630" stroke="#2a313c"/>
+    <circle cx="114" cy="206" r="34" fill="#ffa657" opacity="0.25"/>
+    <circle cx="114" cy="206" r="22" fill="#ffa657"/>
+    <rect x="44" y="252" width="140" height="10" rx="4" fill="#c9d6e2"/>
+    <rect x="44" y="268" width="90" height="8" rx="4" fill="#8b949e"/>
+    <rect x="44" y="284" width="60" height="20" rx="5" fill="#3fb950"/>
+  </g>
+  <g>
+    <rect x="230" y="156" width="180" height="150" rx="10" fill="#1f2630" stroke="#2a313c"/>
+    <circle cx="320" cy="206" r="34" fill="#58a6ff" opacity="0.25"/>
+    <circle cx="320" cy="206" r="22" fill="#58a6ff"/>
+    <rect x="250" y="252" width="140" height="10" rx="4" fill="#c9d6e2"/>
+    <rect x="250" y="268" width="90" height="8" rx="4" fill="#8b949e"/>
+    <rect x="250" y="284" width="60" height="20" rx="5" fill="#3fb950"/>
+  </g>
+  <g>
+    <rect x="436" y="156" width="180" height="150" rx="10" fill="#1f2630" stroke="#2a313c"/>
+    <circle cx="526" cy="206" r="34" fill="#d2a8ff" opacity="0.25"/>
+    <circle cx="526" cy="206" r="22" fill="#d2a8ff"/>
+    <rect x="456" y="252" width="140" height="10" rx="4" fill="#c9d6e2"/>
+    <rect x="456" y="268" width="90" height="8" rx="4" fill="#8b949e"/>
+    <rect x="456" y="284" width="60" height="20" rx="5" fill="#3fb950"/>
+  </g>
+</svg>
